@@ -394,10 +394,18 @@
                 <svg class="icon-right">
                   <use href="./sprite/sprite.svg#icon-linkedin-1"></use>
                 </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+				  </a>
+				</li>
+			 </ul>
+		   </div>
+					  <!-- --------форма футер---------- -->
+			<div class="footer-form">
+			<p class="title-right form">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+			<form class="footer-form-mail">
+			<label class="footer-form-label">
+			 <input type="mail" name="user_mail" class="footer-form_input" placeholder="E-mail">
+			 <button type="submit" class="footer_form-btn">Подписаться</button>
+			</div>
       </div>
 	 </footer>
 	 <!-- ------backdrop-------- -->
@@ -408,6 +416,7 @@
 				height="18px"><use href="./sprite/sprite.svg#close-black">
 				</use></svg>
 		</button>
+		<!-- ----------форма----------- -->
 		<form class="modal_form">
 			<p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
 			<label class="modal_form-label">
@@ -428,12 +437,10 @@
 			<svg class="modal_form-icon" width="18px" height=18px><use href="./sprite/sprite.svg#email-black">
 			</use></svg> </span>
 			</label >
-			<label class="modal_form-label">Комментарий <textarea name="Feedback"></textarea></label>
-			<label class="modal_form-label">
-			<input type="checkbox" name="user_consent" value="accept-consent" class="modal_form-consent">Соглашаюсь с рассылкой и принимаю<a href="#" class="modal_form-link">Условия договора</a>
+			<label class="modal_form-label">Комментарий <textarea name="Feedback" class="modal_form-feedack" placeholder="Введите текст"></textarea></label>
+			<input id="user-consent" type="checkbox" name="user_consent" value="accept-consent" class="modal_form-consent visually-hiden">
+			<label for="user-consent" class="modal_form-chek">Соглашаюсь с рассылкой и принимаю<a href="#" class="modal_form-link">Условия договора</a></label>
 			<button type="submit" class="modal_form-btn">Отправить</button>
-         </label>
-			</label>
 		</form> 
 		</div>
 	 </div>
